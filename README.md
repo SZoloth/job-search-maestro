@@ -18,8 +18,8 @@ This framework automates the **"Never Search Alone"** methodology, converting a 
 
 1. **Clone this repository**
    ```bash
-   git clone [your-repo-url]
-   cd job-search-orchestrator-template
+   git clone https://github.com/SZoloth/job-search-maestro.git
+   cd job-search-maestro
    ```
 
 2. **Install dependencies**
@@ -27,9 +27,15 @@ This framework automates the **"Never Search Alone"** methodology, converting a 
    pip install -r requirements.txt
    ```
 
-3. **Configure your profile**
+3. **Quick setup (recommended)**
    ```bash
-   # Edit your personal information
+   # Run the interactive setup script
+   python setup.py
+   ```
+   
+   **OR manual configuration:**
+   ```bash
+   # Edit your personal information manually
    cp config/job_search_config.json config/job_search_config.json.backup
    # Update YOUR_FULL_NAME, email, phone, LinkedIn, target roles, etc.
    ```
