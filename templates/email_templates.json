@@ -1,0 +1,70 @@
+{
+  "cold_email_templates": {
+    "product_manager_growth": {
+      "name": "Product Manager - Growth Focus",
+      "subject_line": "Growth expertise for {company_name}",
+      "template": "Hi {name},\\n\\n{personalization_hook}\\n\\nI'm reaching out because {specific_reason}. Two things that might be relevant:\\n\\n• {achievement_1}\\n• {achievement_2}\\n\\nI think I could help you {specific_value_add} and would like to learn more about your current priorities.\\n\\nWorth a 15-minute conversation?\\n\\nBest,\\n{your_name}",
+      "personalization_required": ["personalization_hook", "specific_reason", "achievement_1", "achievement_2", "specific_value_add"],
+      "max_words": 200,
+      "target_roles": ["product manager", "growth", "senior pm"]
+    },
+    "senior_leadership": {
+      "name": "Senior Leadership Outreach",
+      "subject_line": "Product strategy expertise for {company_name}",
+      "template": "Hi {name},\\n\\n{personalization_hook}\\n\\nI specialize in helping companies scale their product development through systematic experimentation and {your_specialty}.\\n\\nMy experience includes:\\n• {relevant_experience_1}\\n• {relevant_experience_2}\\n\\nI'm particularly interested in {company_challenge} and believe I could contribute to your team's success.\\n\\nWould you have time for a brief conversation about your product priorities?\\n\\nBest regards,\\n{your_name}",
+      "personalization_required": ["personalization_hook", "relevant_experience_1", "relevant_experience_2", "company_challenge"],
+      "max_words": 180,
+      "target_roles": ["director", "vp", "head", "ceo", "founder"]
+    },
+    "ai_focused": {
+      "name": "AI/Technology Focus", 
+      "subject_line": "AI product expertise for {company_name}",
+      "template": "Hi {name},\\n\\n{personalization_hook}\\n\\nI saw {company_name} is {ai_initiative} and wanted to reach out. I recently helped {recent_project_company} with {recent_project_outcome}.\\n\\nTwo relevant outcomes:\\n• {ai_achievement_1}\\n• {ai_achievement_2}\\n\\nHappy to share more about how systematic AI implementation could accelerate {company_name}'s product roadmap.\\n\\nInterested in a quick chat?\\n\\n{your_name}",
+      "personalization_required": ["personalization_hook", "ai_initiative", "recent_project_company", "recent_project_outcome", "ai_achievement_1", "ai_achievement_2"],
+      "max_words": 150,
+      "target_roles": ["ai", "ml", "technology", "innovation", "chief technology"]
+    },
+    "follow_up": {
+      "name": "Follow-up Email",
+      "subject_line": "Re: {original_subject}",
+      "template": "Hi {name},\\n\\nI wanted to follow up on my previous email about product growth opportunities at {company_name}.\\n\\nI understand you're likely busy, but if you have 15 minutes in the coming weeks, I'd love to share some insights from {recent_relevant_work} that might be relevant to your team's roadmap.\\n\\nNo worries if the timing isn't right.\\n\\nBest,\\n{your_name}",
+      "delay_days": 7,
+      "max_follow_ups": 1,
+      "send_only_if_no_response": true
+    }
+  },
+  "personalization_hooks": {
+    "company_news": "I saw {company_name}'s recent {news_item} - impressive progress on {focus_area}",
+    "linkedin_post": "I noticed your recent post about {post_topic}",
+    "industry_trend": "I've been following {company_name}'s growth in the {industry} space",
+    "mutual_connection": "I was connected to you through {mutual_connection_name} who spoke highly of your work at {company_name}",
+    "company_mission": "Your mission to {company_mission} resonates with my experience in {relevant_area}"
+  },
+  "achievement_examples": {
+    "conversion_growth": "[EXAMPLE] Doubled freemium-to-premium conversion rate from 3.8% to 8.4% through systematic A/B testing",
+    "product_launch": "[EXAMPLE] Launched [Product Name] from market research to delivery in X days/weeks",
+    "organic_growth": "[EXAMPLE] Grew organic traffic from <100 to 10K monthly visitors in X months through systematic SEO",
+    "enterprise_leads": "[EXAMPLE] Drove X% increase in enterprise sales leads through experimentation program",
+    "ux_improvement": "[EXAMPLE] Led end-to-end product redesign with X% Customer Effort Score improvement",
+    "business_development": "[EXAMPLE] Enabled $XM+ in new business through [specific method/approach]",
+    "b2b_conversion": "[EXAMPLE] Increased free trial conversion rate from X% to Y% (+Z%) for B2B SaaS company"
+  },
+  "value_add_options": {
+    "scale_development": "scale your product development through systematic experimentation",
+    "ai_implementation": "implement AI-powered solutions to accelerate product roadmap", 
+    "growth_optimization": "optimize growth metrics through data-driven product improvements",
+    "user_research": "enhance user research and validation processes for better product-market fit",
+    "stakeholder_alignment": "improve cross-functional alignment and stakeholder management",
+    "experimentation": "establish systematic experimentation frameworks for faster learning"
+  },
+  "email_validation_rules": {
+    "max_words": 200,
+    "required_elements": ["clear_ask", "specific_examples", "personalization"],
+    "forbidden_words": ["synergy", "leverage", "optimize", "execute", "drive results", "best practices", "thought leader"],
+    "required_tone": "plain_language",
+    "follow_up_limits": {
+      "max_follow_ups": 1,
+      "delay_days": 7
+    }
+  }
+}

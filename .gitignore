@@ -1,0 +1,81 @@
+# Personal information - NEVER commit these!
+config/job_search_config.json.personal
+templates/my_resume.md
+experience/my_case_stories/
+Applications/*/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Application data
+data/application_pipeline.json
+cache/
+*.log
+job_search.log
+
+# Backup files
+*.backup
+*.bak
+
+# Local configuration overrides
+config/local_settings.json
+.env
+.env.local
+
+# Research and output files (may contain personal/company info)
+Applications/*/
+research_output/
+generated_materials/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Email drafts and personal communications
+email_drafts/
+personal_notes/

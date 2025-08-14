@@ -1,0 +1,84 @@
+{
+  "user_profile": {
+    "name": "YOUR_FULL_NAME",
+    "email": "your.email@domain.com",
+    "phone": "000-000-0000",
+    "linkedin": "linkedin.com/in/your-linkedin-username/",
+    "target_roles": [
+      "Senior Product Manager",
+      "Growth Product Manager",
+      "Principal Product Manager",
+      "Director of Product",
+      "Head of Product Growth"
+    ],
+    "target_industries": [
+      "Healthcare Technology",
+      "Consumer Products", 
+      "AI/ML Companies",
+      "EdTech",
+      "FinTech",
+      "SaaS/Enterprise Software"
+    ],
+    "target_company_size": "50-500 employees",
+    "remote_preference": "Fully remote or flexible hybrid (max 1 day/week in office)",
+    "salary_range": "$XXX-XXXK base with meaningful equity",
+    "key_skills": [
+      "Product Strategy",
+      "Growth Strategy", 
+      "AI Implementation",
+      "Systematic Experimentation",
+      "User Research",
+      "Cross-functional Leadership",
+      "Data-driven Decision Making",
+      "Stakeholder Management"
+    ]
+  },
+  "ai_prompts": {
+    "company_research": "Create a comprehensive company dossier for {company_name} for a {target_role} preparing for interviews. Include: mission/values, founders, products, competitors, recent news. Focus on trust, safety, privacy, regulatory, or AI-related news. Cover business model and key challenges.",
+    "industry_research": "You're a director of PM for {specific_team} at a company like {company_name}. Research how to {solve_key_problem}. Write a comprehensive brief on problems (with metrics) and survey what the industry has done to improve {specific_area}.",
+    "competitive_analysis": "Conduct a comprehensive competitive analysis for {company_name} in the {industry_context} market. Identify 5-7 direct competitors, compare positioning and features, analyze differentiation opportunities, and assess competitive threats.",
+    "recent_news_analysis": "Research and analyze recent news and developments for {company_name} over the past 6 months. Include major announcements, industry coverage, regulatory changes, financial performance, and overall sentiment analysis.",
+    "growth_challenges": "Analyze the key growth challenges and opportunities facing {company_name} as a {company_stage} company in the {industry_context} space. Focus on scaling challenges, market expansion, competitive pressures, and strategic priorities."
+  },
+  "email_settings": {
+    "max_words": 200,
+    "follow_up_days": 7,
+    "max_follow_ups": 1,
+    "preferred_send_times": "Tuesday-Thursday, 9-11 AM or 2-4 PM",
+    "linkedin_connection_same_day": true,
+    "email_validation_rules": [
+      "Under 200 words",
+      "Clear ask included",
+      "No buzzwords",
+      "Specific and not vague",
+      "Plain language only"
+    ]
+  },
+  "quality_gates": {
+    "min_priority_score": 28,
+    "required_research_time_minutes": 45,
+    "application_time_budget_minutes": 180,
+    "keyword_match_percentage": 80,
+    "target_response_rate": 0.4
+  },
+  "success_metrics": {
+    "target_response_rate": 0.4,
+    "target_interview_conversion": 0.7,
+    "target_time_per_application_minutes": 45,
+    "applications_per_week": 5,
+    "follow_up_response_rate": 0.15
+  },
+  "automation_preferences": {
+    "auto_generate_linkedin_connections": true,
+    "auto_schedule_follow_ups": true,
+    "save_all_materials": true,
+    "create_interview_prep_automatically": true,
+    "validate_emails_before_saving": true
+  },
+  "integration_settings": {
+    "use_notebooklm_for_audio": true,
+    "linkedin_api_enabled": false,
+    "email_tracking_enabled": false,
+    "calendar_integration": false
+  }
+}
